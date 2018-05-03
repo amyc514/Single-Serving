@@ -1,1 +1,40 @@
-.wrapper
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 960px;
+    font-family: georgia;
+    background: ghostwhite;
+    color: slategrey;
+}
+.title{
+    font-size: 3em;
+    font-variant: all-small-caps;
+}
+.places {
+    text-align: left;
+    margin-left: 115px;
+    font-variant: all-petite-caps;
+    color: dimgray;
+}
+.locate{
+    text-align: left;
+    margin-left: 115px;
+    font-variant: all-petite-caps;
+    color: dimgray;
+    font-size: 1.25em;
+    font-style: oblique;
+    margin-top: -20px;
+}
+.text{
+    text-align: justify;
+    margin-left: 115px;
+    font-size: .9em;
+    line-height: 1.3em;
+    margin-bottom: 100px;
+    margin-right: 155px;
+}
+.image{
+    text-align: left;
+    margin-left: 115px;
+}
