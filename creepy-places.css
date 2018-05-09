@@ -1,0 +1,97 @@
+.wrapper{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    max-width: 960px;
+    font-family: georgia;
+    background: slategray;
+    color: black;
+}
+.title{
+    font-size: 4em;
+    font-variant: all-small-caps;
+    text-shadow: 6px 1px 9px lavender;
+}
+.places {
+    text-align: left;
+    margin-left: 115px;
+    font-variant: all-petite-caps;
+    color: black;
+}
+.locate{
+    text-align: left;
+    margin-left: 115px;
+    font-variant: all-petite-caps;
+    color: lavender;
+    font-size: 1.25em;
+    font-style: oblique;
+    margin-top: -20px;
+}
+.text{
+    text-align: justify;
+    margin-left: 115px;
+    font-size: .9em;
+    letter-spacing: .4px;
+    line-height: 1.3em;
+    margin-bottom: 150px;
+    margin-right: 170px;
+    color: lavender;
+}
+.image{
+    text-align: left;
+    margin-left: 115px;
+}
+.country{
+    line-height: 2em;
+    margin-bottom: 200px;
+    font-size: 2em;
+    border-bottom: black;
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+}
+a {
+    color: lavender;
+    text-decoration: none;
+}
+a:hover{
+	color: black;
+}
+
+@media screen and (max-device-width: 800px) {
+
+.wrapper {
+    max-width: 800px;
+}
+.title {
+    font-size: 2em;
+    margin-top: 100px;
+}
+.country{    
+	font-size: .8em;
+    margin-bottom: 100px;
+    margin-top: 50px;
+    padding-bottom: 21px;
+    line-height: 1.5em;
+}
+.locate{
+	font-size: .8em;
+	margin-top: -20px;
+	margin-left: 70px;
+}
+.places{
+	margin-left: 70px;
+}
+.image {
+    text-align: left;
+    margin-left: 70px;
+    padding-bottom: 20px;
+}
+.text{
+	margin-left: 70px;
+	font-size: .8em;
+	letter-spacing: 1px;
+    word-spacing: -3px;
+    line-height: 1.4em;
+    margin-right: 60px;
+}
+}
